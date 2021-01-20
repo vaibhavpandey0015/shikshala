@@ -209,10 +209,12 @@ body{
 .button {
         background:#035b96;
         font-size: 1vw;
+        padding: 10px;
 }
 @media screen and (max-width: 600px) {
   .button {
         font-size: 2vw;
+        
 }
 }
 .button:hover {
@@ -223,3 +225,11 @@ body{
 
 
 /* pop up css ends */
+
+
+.btn{
+  transition: none;
+  padding: 0;
+  margin: 0;
+
+}
