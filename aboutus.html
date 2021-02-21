@@ -1,0 +1,365 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SHIKSHALA</title>
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <!-- Font Awesome  -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+        integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+    <!-- Custom styles for this template -->
+    <link rel="stylesheet" href=" css/trialcss.css">
+</head>
+
+<body>
+    <script>
+        function myFunction() {
+            var x = document.getElementById("myMainNav");
+            if (x.className === "mainnav") {
+                x.className += " responsive";
+            } else {
+                x.className = "mainnav";
+            }
+        } 
+    </script>
+
+
+    <!-- Free demo Modal start -->
+    <div id="modalTwo" class="modal">
+        <div class="modal-content">
+            <div class="contact-form">
+                <span class="close">&times;</span>
+                <form action="/" class="demo-form">
+                    <h2>Request Free Demo</h2>
+                    <div>
+                        <label for="fullName">Name<span class="text-danger">*</span></label>
+                        <input type="text" class="form-control" id="fullName" placeholder="Your full name" value=""
+                            required="">
+
+                        <label for="phone">Contact Number<span class="text-danger">*</span></label>
+                        <input type="text" class="form-control" id="phone" placeholder="Your mobile number" required="">
+
+                        <label for="email">Email<span class="text-danger">*</span></label>
+                        <input type="text" class="form-control" id="email" placeholder="you@example.com" required="">
+
+                        <label for="InstituteName">Institute Name<span class="text-danger">*</span></label>
+                        <input type="text" class="form-control" id="InstituteName" placeholder="MIIT" value=""
+                            required="">
+
+                        <label for="NumberofStudents">Number of Students<span class="text-danger">*</span></label>
+                        <input type="text" class="form-control" id="NumberofStudents"
+                            placeholder="number only(eg. 100,200...etc)" required="">
+                    </div>
+                    <button type="submit" href="/">Submit</button>
+                </form>
+            </div>
+        </div>
+    </div>
+    <!-- Free Demo modal ends -->
+
+
+    <!-- Navbar Start -->
+    <section>
+        <div class="top_nav pt-4 px-4 pb-1">
+            <ul class="left_top">
+                <li>
+                    <a href="tel:+91-869-869-5040"><i class="fa fa-phone mr-2"
+                            aria-hidden="true"></i>+91-869-869-5040</a>
+                </li>
+                <li>
+                    <a href="mailto:contact@shikshala.com"> <i class="fa fa-envelope mr-2" aria-hidden="true"></i>
+                        contact@shikshala.com</a>
+                </li>
+            </ul>
+
+            <ul class="right_top">
+                <li>
+                    <a class="btn button text-light p-1" href="register.html">Register</a>
+                </li>
+                <li>
+
+                    <button class="btn button text-light popbutton p-1" data-modal="modalTwo">Request Free Demo</button>
+                </li>
+                <li>
+                    <a class="btn button text-light p-1" href="pdf/Shikshala_brochure.pdf" target="blank">Download Brochure</a>
+                </li>
+            </ul>
+        </div>
+        <div class="container">
+            <div class="second_nav ">
+                <div class="logo">
+                    <a href="index.html" class="navbar-brand">
+                        <img src="images/logo.png" alt="" width="200px" style="position:relative; top:-16px">
+                    </a>
+                </div>
+                <div class="mainnav" id="myMainNav">
+                    <a class="" href="index.html">Home</a>
+                    <a class="" href="aboutus.html">About Us</a>
+                    <a class="" href="integration.html">Integration</a>
+                    <a class="" href="advantages.html">Advantages</a>
+                    <a class="" href="contactus.html">Contact Us</a>
+                    <a class="" href="careers.html">Careers</a>
+                    <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                        <i class="fa fa-bars fa-2x"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Nav Bar ends -->
+
+    <!-- banner start -->
+    <div class="" style="padding:0 5%">
+        <img src="images/page1.png" class="layer-image" width=100%>
+        <h3 style="font-size:2.5vw; margin-top:20px; text-align:center; font-weight:bold; color:#031f4b">No need of any
+            other app for your learning management tasks, now embrace right technolgy to enable yourself</h3>
+    </div>
+    <!-- banner ends -->
+
+    <!-- what is shikshala starts -->
+    <div class="text_style text-center mt-4">
+        <h6>Know more</h6>
+        <h1 class="head_text">About Us</h1>
+    </div>
+    <section class="whatisshikshala container text-center my-4 py-3">
+        <h1 class="mb-3 font-weight-bold" style="color:#0f243b">What is Shik<span style="color:#1ba2ec">shala</span>
+        </h1>
+        <p class="mx-4 font-weight-bold" style="font-size: 16px;">Shikshala is a reliable one-stop cloud suit companion
+            offering for Educational establishments, Autonomous
+            Institutions, Universities & Trusts. It provides end-to-end automation to all your scholastic activities
+            asasimple to-utilize: website, Admission process, Student Management, Faculty management &Campus
+            Administration which easy-to-use application is delivered in the cloud under just one click.</p>
+        <p class="mx-4 font-weight-bold" style="font-size: 16px;">This application is intended to flawlessly bind
+            together your entire campus in asolitary casing. Also,
+            encourage streamline and more effective institutional work processes by incorporating it with innovation
+            architecture, Encryption consent, Data Security, Data acceleration, and Transparency.</p>
+    </section>
+    <!-- what is shikshala ends -->
+
+    <!-- features start -->
+    <section class="explain_feature">
+        <div class="container my-4" style="border:1px solid #007bff">
+
+            <div class="row">
+                <div class="col-lg-6 col-sm-12 explain_feature1">
+                    <h3 class="pt-4 text-center">Integrated eLearning System</h3>
+                    <div>
+                        <ul style="list-style-type:none;">
+                            <li><i class="fa fa-check mr-2" aria-hidden="true"></i>Managed Services to onboard Content
+                            </li>
+                            <li><i class="fa fa-check mr-2" aria-hidden="true"></i>Assessments and automated evaluation
+                            </li>
+                            <li><i class="fa fa-check mr-2" aria-hidden="true"></i>Integrated Web Conferencing tool to
+                                conduct online classes</li>
+                            <li><i class="fa fa-check mr-2" aria-hidden="true"></i>Teacher and Student/Parent login</li>
+                            <li><i class="fa fa-check mr-2" aria-hidden="true"></i>Online course content to track
+                                student Progress</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-lg-6 col-sm-12 explain_feature2">
+                    <h3 class="pt-4 text-center">Student Management System</h3>
+                    <div>
+                        <ul style="list-style-type:none;">
+                            <li><i class="fa fa-check mr-2" aria-hidden="true"></i>Secure Student Information Storage
+                            </li>
+                            <li><i class="fa fa-check mr-2" aria-hidden="true"></i>Pre-Admission & Admission Management
+                            </li>
+                            <li><i class="fa fa-check mr-2" aria-hidden="true"></i>Detailed Student File with Custom
+                                Remarks</li>
+                            <li><i class="fa fa-check mr-2" aria-hidden="true"></i>Assignment & Grading Management</li>
+                            <li><i class="fa fa-check mr-2" aria-hidden="true"></i>Recruitment & Placement Management
+                            </li>
+                            <li><i class="fa fa-check mr-2" aria-hidden="true"></i>Alumni Management</li>
+                            <li><i class="fa fa-check mr-2" aria-hidden="true"></i>Report Card & Certificate Generation
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-lg-6 col-sm-12 explain_feature2">
+                    <h3 class="pt-4 text-center">Admin & HR Management</h3>
+                    <div>
+                        <ul style="list-style-type:none;">
+                            <li><i class="fa fa-check mr-2" aria-hidden="true"></i>Employee File Management</li>
+                            <li><i class="fa fa-check mr-2" aria-hidden="true"></i>Employee Attendance & Leaves</li>
+                            <li><i class="fa fa-check mr-2" aria-hidden="true"></i>Payroll Management</li>
+                            <li><i class="fa fa-check mr-2" aria-hidden="true"></i>Transportation & Fleet Management
+                            </li>
+                            <li><i class="fa fa-check mr-2" aria-hidden="true"></i>Job Application Management</li>
+                            <li><i class="fa fa-check mr-2" aria-hidden="true"></i>Student & Employee ID Card Generation
+                            </li>
+                            <li><i class="fa fa-check mr-2" aria-hidden="true"></i>Instant Documents & Certifications
+                            </li>
+                            <li><i class="fa fa-check mr-2" aria-hidden="true"></i>Feedbacks & Surveys</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-lg-6 col-sm-12 explain_feature1">
+                    <h3 class="pt-4 text-center">Communication Portal</h3>
+                    <div>
+                        <ul style="list-style-type:none;">
+                            <li><i class="fa fa-check mr-2" aria-hidden="true"></i>Parent Portal with Student Progress
+                            </li>
+                            <li><i class="fa fa-check mr-2" aria-hidden="true"></i>Student Portal with Assignment
+                                Updates</li>
+                            <li><i class="fa fa-check mr-2" aria-hidden="true"></i>Your Custom Domain with SSL
+                                Protection</li>
+                            <li><i class="fa fa-check mr-2" aria-hidden="true"></i>Manage News, Events & Announcements
+                            </li>
+                            <li><i class="fa fa-check mr-2" aria-hidden="true"></i>ERP Connected Template Website</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-lg-6 col-sm-12 explain_feature1">
+                    <h3 class="pt-4 text-center">Examinations & Evaluation Portal</h3>
+                    <div>
+                        <ul style="list-style-type:none;">
+                            <li><i class="fa fa-check mr-2" aria-hidden="true"></i>Easy to design and assign exams and
+                                assessments</li>
+                            <li><i class="fa fa-check mr-2" aria-hidden="true"></i>Online and offline exam modes</li>
+                            <li><i class="fa fa-check mr-2" aria-hidden="true"></i>Objective and subjective questions
+                                set patterns</li>
+                            <li><i class="fa fa-check mr-2" aria-hidden="true"></i>Shcedule and run multiple exams at
+                                the same time </li>
+                            <li><i class="fa fa-check mr-2" aria-hidden="true"></i>Online evaluation portal for teachers
+                            </li>
+                            <li><i class="fa fa-check mr-2" aria-hidden="true"></i>Precure scorecards and reports</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-lg-6 col-sm-12 explain_feature2">
+                    <h3 class="pt-4 text-center">Analytics & Reporting</h3>
+                    <div>
+                        <ul style="list-style-type:none;">
+                            <li><i class="fa fa-check mr-2" aria-hidden="true"></i>Customizable Live Reporting
+                                Dashboards</li>
+                            <li><i class="fa fa-check mr-2" aria-hidden="true"></i>Customizable Live Reporting
+                                Dashboards</li>
+                            <li><i class="fa fa-check mr-2" aria-hidden="true"></i>Performance Reports by School, Batch
+                                & Student</li>
+                            <li><i class="fa fa-check mr-2" aria-hidden="true"></i>Track Course Coverage for Each Class
+                                & Teacher</li>
+                            <li><i class="fa fa-check mr-2" aria-hidden="true"></i>Daily Activity Logs</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- features ends -->
+
+
+    <!-- special card start -->
+    <section>
+        <div class="container special_card">
+            <div class="card text-center text-light p-3 m-4" style="background: #112337;">
+
+                <h1>Get Your FREE TRIAL Now!</h1>
+                <div class="m-4">
+                    <a class="btn button text-light p-1" href="register.html">Register Now</a>
+                    <button class="btn button text-light popbutton p-1" data-modal="modalTwo">Request Free Demo</button>
+                </div>
+
+            </div>
+        </div>
+    </section>
+    <!-- special card ends -->
+
+    <!-- footer starts -->
+
+    <section class="footer p-4">
+        <div class="container p-4">
+            <div class="row">
+                <div class="col-lg-6 col-sm-12">
+                    <a href="index.html"><img src="images/logo1.png" alt="" width="200px"
+                            style="position:relative; top:-16px"></a>
+                </div>
+                <div class="col-lg-2 mt-3 col-sm-12 text-light">
+                    <h6 class="mb-3 mb-lg-4 bold-text "><b>Company</b></h6>
+                    <ul class="list-unstyled">
+                        <li><a style="text-decoration:none; color:#fff" class="" href="index.html">Home</a></li>
+                        <li><a style="text-decoration:none; color:#fff" href="aboutus.html">About Us</a></li>
+                        <li><a style="text-decoration:none; color:#fff" href="integration.html">Integration</a></li>
+                        <li><a style="text-decoration:none; color:#fff" href="advantages.html">Advantages</a></li>
+                        <li><a style="text-decoration:none; color:#fff" href="contactus.html">Contact Us</a></li>
+                        <li><a style="text-decoration:none; color:#fff" href="careers.html">Careers</a></li>
+                    </ul>
+                </div>
+                <div class="col-lg-2 mt-3 col-sm-12 text-light">
+                    <h6 class="mb-3 mb-lg-4 bold-text "><b>SOLUTIONS</b></h6>
+                    <ul class="list-unstyled">
+                        <li><a style="text-decoration:none; color:#fff" href="register.html">Register</a></li>
+                        <li><button class="btn popbutton" data-modal="modalTwo"
+                                style="text-decoration:none; color:#fff; background:none;">Request Free Demo</button>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-lg-2 mt-3 col-sm-12 text-light">
+                    <h6 class="mb-3 mb-lg-4 bold-text mt-sm-0 mt-5"><b>ADDRESS</b></h6>
+                    <p class="mb-1">PLOT NO.2, RATAN ICON BUILDING, NAGPUR</p>
+                    <p>MAHARASHTRA, INDIA</p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="mt-3 col-lg-6 col-sm-12 text-light">
+                    <p class="social mb-0 pb-0 bold-text">
+                        <a style="text-decoration:none; color:#fff" class="" href="#"> <span class="mx-2"><i
+                                    class="fa fa-facebook" aria-hidden="true"></i></span> </a>
+                        <a style="text-decoration:none; color:#fff" class="" href="#"> <span class="mx-2"><i
+                                    class="fa fa-linkedin-square" aria-hidden="true"></i></span></a>
+                        <a style="text-decoration:none; color:#fff" class="" href="#"> <span class="mx-2"><i
+                                    class="fa fa-twitter" aria-hidden="true"></i></span> </a>
+                        <a style="text-decoration:none; color:#fff" class="" href="#"><span class="mx-2"><i
+                                    class="fa fa-instagram" aria-hidden="true"></i></span> </a>
+                    </p>
+                    <small class="rights"><span>&#174;</span> Shikshala All Rights Reserved.</small>
+                </div>
+                <div class="mt-3 col-lg-2 col-sm-12 text-light">
+                    <h6 class="mt-55 mt-2 bold-text"><b>Call Us at</b></h6>
+                    <small> <a style="text-decoration:none; color:#fff" class="" href="tel:+91-869-869-5040"><span><i
+                                    class="fa fa-phone" aria-hidden="true"></i></span> +91-869-869-5040</a></small>
+                </div>
+                <div class="mt-3 col-lg-2 col-sm-12 text-light">
+                    <h6 class="mt-55 mt-2 bold-text"><b>Email at</b></h6>
+                    <small><a style="text-decoration:none; color:#fff" class=""
+                            href="mailto:contact@shikshala.com"><span><i class="fa fa-at" aria-hidden="true"></i></span>
+                            contact@shikshala.com</a></small>
+                </div>
+                <div class="mt-3 col-lg-2 col-sm-12 text-light">
+                    <h6 class="mt-55 mt-2 bold-text"><b>Shikshala website</b></h6>
+                    <small><a style="text-decoration:none; color:#fff" class=""
+                            href="https://www.shikshala.com/"><span><i class="fa fa-link" aria-hidden="true"></i></span>
+                            www.shikshala.com</a></small>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- footer ends -->
+
+
+
+    <script src="js/index.js"></script>
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+        crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>

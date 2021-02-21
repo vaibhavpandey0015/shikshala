@@ -1,0 +1,252 @@
+ 
+ 
+ <!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="">
+  <meta name="author" content="Vaibhav Pandey vaibhavpandey0015@gmail.com">
+  <title>SHIKSHALA</title>
+
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+  <!-- Font Awesome  -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+    integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+  <!-- Custom styles for this template -->
+  <link rel="stylesheet" href=" css/style.css">
+
+   <script src="js/cities.js"></script>
+  
+
+
+    <style>
+.sidenav {
+  height: 100%;
+  width: 40%;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #112337;
+  color:#fff;
+  overflow-x: hidden;
+  padding-top: 20px;
+}
+.main {
+  margin-left: 40%; 
+  padding: 0px 70px;
+}
+
+@media (max-width: 600px) {
+  .sidenav{
+    position: static;
+     height:auto;
+     width:100%;
+     padding:20px
+  }
+  .main {
+   margin-left: 0;
+   margin-top: 30px;   
+   padding: 0px 10px;
+}
+}
+
+
+.sidenav h3 a{
+    position:relative; 
+    left:10px; 
+    top:8px; 
+    font-weight:bold; 
+    color:#fff; 
+}
+.sidenav h1{
+    position:relative;
+    top:30%; 
+    font-weight:bold"
+}
+</style>
+
+
+
+</head>
+
+<body class="bg-light">
+
+
+
+<div class="sidenav">
+  <h3><a class="sidenav_text" href="index.html"><i class="fa fa-home" aria-hidden="true"></i></a></h3>
+  <h1 class="text-center font-weight-bold">Welcome to<img src="images/logo1.png" alt="" width="200px" style="position:relative; top:-10px"></h1>
+  <div class="text-center" style="position:relative; top:60%">
+  <p class="social mb-0 pb-0 bold-text"> 
+        <span class="mx-2"><i class="fa fa-facebook" aria-hidden="true"></i></span> 
+        <span class="mx-2"><i class="fa fa-linkedin-square" aria-hidden="true"></i></span>
+        <span class="mx-2"><i class="fa fa-twitter" aria-hidden="true"></i></span> 
+        <span class="mx-2"><i class="fa fa-instagram" aria-hidden="true"></i></span> 
+    </p>
+    <small class="rights"><span>&#174;</span> Shikshala All Rights Reserved.</small>
+  </div>  
+</div>
+
+
+ <div class="main">
+ <div class="container my-4 p-2 ">
+                    <h2 class="text-center">Institute Registration Form</h2>
+                    <div class="contact-card  mx-auto" style="width: auto;"> 
+
+
+                    <div style="font-size:16px;">
+                        <form>
+                          <div class="mb-3">
+                                        <label for="InstituteName">Institute Name<span class="text-danger">*</span></label>
+                                        <div class="input-group">
+                                            <input type="text" class="form-control" id="InstituteName" placeholder="" value="" required="">
+                                        </div>
+                                    </div>
+            
+                              
+                                <div class="mb-3">
+                                    <label for="InstituteAddress">Institute Address<span class="text-danger">*</span></label>
+                                    <div class="input-group">
+                                        <input type="text" class="form-control" id="InstituteAddress" placeholder="" required="">
+                                    </div>
+                                </div>
+
+                                <div class="row">
+                                    <div class="col-md-6 mb-3">
+                                        <label for="institutetype">Institute Type<span class="text-danger">*</span></label>
+                                        <select class="custom-select" class="form-control" id="institutetype"  value="" required="">
+                                            <option selected>-</option>
+                                            <option value="1">School</option>
+                                            <option value="2">College</option>
+                                            <option value="3">Institution</option>
+                                            <option value="4">University</option>
+                                            <option value="5">Individual</option>
+                                            <option value="6">Other</option>
+                                        </select>
+                                    </div>
+                                    <div class="col-md-6 mb-3">
+                                        <label for="gstno">GST Number.<span class="text-danger">*</span></label>
+                                        <input type="text" class="form-control" id="gstno" placeholder="" value="" required="">
+                                    </div>
+                                </div>
+
+
+                                <div class="row">
+                                    <div class="col-md-6 mb-3">
+                                        <label for="regyear">Institute Registration Year<span class="text-danger">*</span></label>
+                                        <input type="text" class="form-control" id="regyear" placeholder="" value="" required="">
+                                    </div>
+                                    <div class="col-md-6 mb-3">
+                                        <label for="regno">Institute Registration Number<span class="text-danger">*</span></label>
+                                        <input type="text" class="form-control" id="regno" placeholder="" value="" required="">
+                                    </div>
+                                </div>
+
+
+                                 <div class="row">
+                                    <div class="col-md-6 mb-3">
+                                        <label for="noOfTeacher">Number of Teachers<span class="text-danger">*</span></label>
+                                        <input type="text" class="form-control" id="noOfTeacher" placeholder="" value="" required="">
+                                    </div>
+                                    <div class="col-md-6 mb-3">
+                                        <label for="noOfStuent">Number of Stuents<span class="text-danger">*</span></label>
+                                        <input type="text" class="form-control" id="noOfStuent" placeholder="" value="" required="">
+                                    </div>
+                                </div>
+
+                                
+                                <div class="row">
+                                    <div class="col-md-6 mb-3">
+                                        <label for="noofcourse">Number of Courses<span class="text-danger">*</span></label>
+                                        <input type="text" class="form-control" id="noofcourse" placeholder="" value="" required="">
+                                    </div>
+                                    <div class="col-md-6 mb-3">
+                                        <label for="noOfBatches">Number of Batches<span class="text-danger">*</span></label>
+                                        <input type="text" class="form-control" id="noOfBatches" placeholder="" value="" required="">
+                                    </div>
+                                </div>
+
+                                <div class="mb-3">
+                                    <label for="state">State<span class="text-danger">*</span></label>
+                                    <div class="input-group">
+                                       <select onchange="print_city('city', this.selectedIndex);" id="state" name ="stt" class="form-control" required></select>
+                                    </div>
+                                </div>
+                                 <div class="mb-3">
+                                    <label for="city">City/District<span class="text-danger">*</span></label>
+                                    <div class="input-group">
+                                        <select id ="city" class="form-control" required></select>
+                                     </div>
+                                </div>
+                                    <div class="mb-3">
+                                        <label for="fullName">Contact Person Name<span class="text-danger">*</span></label>
+                                        <div class="input-group">
+                                            <input type="text" class="form-control" id="fullName" placeholder="Your full name" value="" required="">
+                                        </div>
+                                    </div>
+            
+                              
+                                <div class="mb-3">
+                                    <label for="phone">Contact Number<span class="text-danger">*</span></label>
+                                    <div class="input-group">
+                                        <input type="text" class="form-control" id="phone" placeholder="Your mobile number" required="">
+                                    </div>
+                                </div>
+
+                                <div class="mb-3">
+                                    <label for="email">Email<span class="text-danger">*</span></label>
+                                    <div class="input-group">
+                                        <input type="email" class="form-control" id="email" placeholder="you@example.com" required="">
+                                    </div>
+                                </div>
+
+                                <div class="mb-3">
+                                    <label for="bankname">Bank Name<span class="text-danger">*</span></label>
+                                    <div class="input-group">
+                                        <input type="text" class="form-control" id="bankname" placeholder="" required="">
+                                    </div>
+                                </div>
+
+                                <div class="row">
+                                    <div class="col-md-6 mb-3">
+                                        <label for="accno">Account Number<span class="text-danger">*</span></label>
+                                        <input type="text" class="form-control" id="accno" placeholder="" value="" required="">
+                                    </div>
+                                    <div class="col-md-6 mb-3">
+                                        <label for="ifsc">IFSC Code<span class="text-danger">*</span></label>
+                                        <input type="text" class="form-control" id="ifsc" placeholder="" value="" required="">
+                                    </div>
+                                </div>
+                                
+                                
+                               
+                                <hr class="mb-4">
+                                <button class="btn btn-primary btn-lg btn-block" type="submit">Register</button>
+                    </form>
+                    </div>
+
+
+
+                    </div>
+            </div>
+
+</div>
+
+       <script language="javascript">print_state("state");</script> 
+  <!-- Icons -->
+      <script src="https://unpkg.com/feather-icons"></script>
+      <script> feather.replace()</script>
+
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
+
+</body>
+
+</html>
